@@ -1,0 +1,12 @@
+---
+- hosts: raspberry_pi
+  user: pi
+  roles:
+    - common
+    - rpi_exporter
+    - node_exporter
+
+- hosts: monitoring_server 
+  user: pi
+  roles:
+    - monitoring_server 
