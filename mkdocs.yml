@@ -3,17 +3,12 @@ site_url: https://kayoo123.github.io/cluster-pi/
 site_description: 'Cluster PI'
 site_author: Jérémi D.
 
-#theme:
-#  name: material
 theme:
   palette: 
-    # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
