@@ -37,9 +37,10 @@ theme:
     - navigation.expand
     - navigation.top
     
-#plugins:
-#  - minify:
-#      minify_html: true
+plugins:
+  - search
+  - minify:
+      minify_html: true
 
 extra:
   generator: false
