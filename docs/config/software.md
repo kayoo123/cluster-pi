@@ -1,6 +1,5 @@
-## DietPi
 
-- Dietpi.txt
+## Dietpi.txt
 ```bash
 AUTO_SETUP_ACCEPT_LICENSE=1
 AUTO_SETUP_LOCALE=C.UTF-8
@@ -96,7 +95,7 @@ DEV_GITOWNER=MichaIng
 #------------------------------------------------------------------------------------------------------
 ```
 
-- cmdline.txt
+## cmdline.txt
 
 Ajouter a la fin : `group_enable=cpuset cgroup_enable=memory cgroup_memory=1`
 ```bash
