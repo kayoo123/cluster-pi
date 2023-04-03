@@ -1,12 +1,15 @@
 site_name: ClusterPI
 site_url: https://kayoo123.github.io/cluster-pi/
-site_description: 'Cluster PI'
 site_author: Jérémi D.
+site_description: >-
+  Documentation pour l'installation, la configuration et l'utilisation
+  d'un cluster de raspberry-pi. Ceci a pour but educatif sur un ensemble d'outils
+  OPS, tel que : Ansible - K3x - helm - traefik - etc...
+copyright: Copyright &copy; 2023 - Jérémi D.
 
 theme:
+  language: fr
   name: material
-#  custom_dir: material
-#  name: null
   palette: 
     - scheme: slate
       toggle:
@@ -16,13 +19,24 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: dark mode
-  language: fr
+  font:
+    text: Roboto
+    code: Roboto Mono
   icon:
-    logo: material/library
-    repo: fontawesome/brands/git-alt
+    logo: logo
+  favicon: assets/favicon.png
+
+plugins:
+  - minify:
+      minify_html: true
     
 nav:
-    - Accueil: index.md
+    - Préface: index.md
+    - Configuration:
+      - Hardware: config/hardware.md
+      - Software: config/software.md
+    - Cluster K3s:
+      - Installation: install/k3s
     - A Propos: about.md
     - Github: https://github.com/kayoo123/cluster-pi
     - 'Issue Tracker': 'https://github.com/kayoo123/cluster-pi/issues'
