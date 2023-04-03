@@ -33,7 +33,7 @@ theme:
     - navigation.tracking
     #- navigation.tabs
     #- navigation.tabs.sticky
-    - navigation.sections
+    #- navigation.sections
     - navigation.expand
     - navigation.top
     
