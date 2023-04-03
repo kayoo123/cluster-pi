@@ -4,18 +4,18 @@ site_description: 'Cluster PI'
 site_author: Jérémi D.
 
 theme:
-  #name: material
+  name: material
 #  custom_dir: material
-  name: null
+#  name: null
   palette: 
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: dark mode
   language: fr
   icon:
     logo: material/library
