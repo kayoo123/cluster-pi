@@ -5,6 +5,8 @@ site_description: >-
   Documentation pour l'installation, la configuration et l'utilisation
   d'un cluster de raspberry-pi. Ceci a pour but educatif sur un ensemble d'outils
   OPS, tel que : Ansible - K3x - helm - traefik - etc...
+repo_url: https://github.com/kayoo123/cluster-pi
+
 copyright: Copyright &copy; 2023 - Jérémi D.
 
 theme:
@@ -24,7 +26,8 @@ theme:
     code: Roboto Mono
   icon:
     logo: logo
-  favicon: assets/favicon.png
+    repo: fontawesome/brands/github
+#  favicon: assets/favicon.png
 
 #plugins:
 #  - minify:
@@ -38,5 +41,3 @@ nav:
     - Cluster K3s:
       - Installation: install/k3s
     - A Propos: about.md
-    - Github: https://github.com/kayoo123/cluster-pi
-    - 'Issue Tracker': 'https://github.com/kayoo123/cluster-pi/issues'
