@@ -1,15 +1,13 @@
 !!! info
-    - `03/04/2023`: Inititialisation du projet
+    - `05/04/2023`: Installation des cartes SD
+    - `03/04/2023`: Inititialisation du projet et gestion du MKDocs/github
     
-# Ce que j'essaye de faire...
-## Image
-![image](https://user-images.githubusercontent.com/18003743/229525786-545bca6a-c403-41d9-b354-995215bf5729.png)
+## Ce que j'essaye de faire...
+![image](https://cdn.pixabay.com/photo/2016/03/31/19/39/device-1295187_960_720.png)
 
-## text
-Ceci est un test 
+Je profite d'avoir quelques raspberry-pi sous la main pour débuter une aventure.
+Celle de monter son propre "petit" cluster, pour jouer avec pas mal d'outils OPS à la maison.
 
-### sous-chapitre
-sdfsdf
+## Mes objectifs 
+Le but ici c'est d'apprendre tout en s'amusant et en partageant avec vous :rocket:
 
-#### petit 
-popopopo
