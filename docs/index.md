@@ -6,8 +6,19 @@
 ![image](https://cdn.pixabay.com/photo/2016/03/31/19/39/device-1295187_960_720.png)
 
 Je profite d'avoir quelques raspberry-pi sous la main pour débuter une aventure.
+
 Celle de monter son propre "petit" cluster, pour jouer avec pas mal d'outils OPS à la maison.
 
 ## Mes objectifs 
 Le but ici c'est d'apprendre tout en s'amusant et en partageant avec vous :rocket:
+
+Ce qui sera au rendez-vous : 
+- [MKdocs](https://www.mkdocs.org/) + [github workflow](https://docs.github.com/fr/actions/using-workflows)
+- [DietPi-Automation](https://dietpi.com/docs/usage/#how-to-do-an-automatic-base-installation-at-first-boot-dietpi-automation)
+- Ansible
+- Cluster Kubernetes avec [K3s](https://k3s.io/)
+- MetalLB
+- Traefik
+- Helm
+- etc...
 
