@@ -11,12 +11,14 @@ copyright: Copyright &copy; 2023 - Jérémi D.
 theme:
   language: fr
   name: material
-  palette: 
-    - scheme: slate
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
         name: light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/toggle-switch
         name: dark mode
