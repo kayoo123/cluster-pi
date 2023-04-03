@@ -30,6 +30,13 @@ theme:
 #  favicon: assets/favicon.png
   features:
     - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
 
 #plugins:
 #  - minify:
