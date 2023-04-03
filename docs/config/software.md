@@ -97,6 +97,7 @@ DEV_GITOWNER=MichaIng
 ```
 
 - cmdline.txt
+
 Ajouter a la fin : `group_enable=cpuset cgroup_enable=memory cgroup_memory=1`
 ```bash
 root=PARTUUID=00858852-02 rootfstype=ext4 rootwait net.ifnames=0 logo.nologo console=serial0,115200 console=tty1 group_enable=cpuset cgroup_enable=memory cgroup_memory=1
