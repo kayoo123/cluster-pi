@@ -26,9 +26,9 @@ theme:
     logo: logo
   favicon: assets/favicon.png
 
-plugins:
-  - minify:
-      minify_html: true
+#plugins:
+#  - minify:
+#      minify_html: true
     
 nav:
     - Préface: index.md
