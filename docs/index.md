@@ -13,6 +13,7 @@ Celle de monter son propre "petit" cluster, pour jouer avec pas mal d'outils OPS
 Le but ici c'est d'apprendre tout en s'amusant et en partageant avec vous :rocket:
 
 Ce qui sera au rendez-vous : 
+
 - [x] [MKdocs](https://www.mkdocs.org/) + [github workflow](https://docs.github.com/fr/actions/using-workflows)
 - [ ] [DietPi-Automation](https://dietpi.com/docs/usage/#how-to-do-an-automatic-base-installation-at-first-boot-dietpi-automation)
 - [ ] Ansible
