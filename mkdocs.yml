@@ -14,7 +14,7 @@ theme:
   palette: 
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-1
         name: light mode
     - scheme: default
       toggle:
