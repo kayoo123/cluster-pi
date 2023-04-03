@@ -1,8 +1,14 @@
 site_name: ClusterPI
 site_url: https://kayoo123.github.io/cluster-pi/
-nav:
-    - Accueil: index.md
-    - A Propos: about.md
+site_description: 'Cluster PI'
+site_author: Jérémi D.
+
 theme:
   name: material
   locale: fr
+
+nav:
+    - Accueil: index.md
+    - A Propos: about.md
+    - Github: https://github.com/kayoo123/cluster-pi
+    - 'Issue Tracker': 'https://github.com/kayoo123/cluster-pi/issues'
