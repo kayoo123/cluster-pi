@@ -4,8 +4,9 @@ site_description: 'Cluster PI'
 site_author: Jérémi D.
 
 theme:
-  palette:
-    scheme: slate
+  name: material
+  scheme: slate
+  language: fr
     
 nav:
     - Accueil: index.md
