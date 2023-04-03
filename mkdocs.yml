@@ -96,4 +96,7 @@ nav:
       - Software: config/software.md
     - Cluster K3s:
       - Installation: install/k3s.md
+    - Annexe:
+      - Script et alias: annexe/script.md
+      - mkdocs: annexe/mkdocs.md
     - A Propos: about.md
