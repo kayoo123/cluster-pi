@@ -1,7 +1,8 @@
 site_name: ClusterPI
 site_url: https://kayoo123.github.io/cluster-pi/
 nav:
-    - Home: index.md
-    - About: about.md
+    - Accueil: index.md
+    - A Propos: about.md
 theme:
   name: material
+  locale: fr
