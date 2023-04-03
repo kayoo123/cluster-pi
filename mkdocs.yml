@@ -5,8 +5,10 @@ site_author: Jérémi D.
 
 theme:
   name: material
-  scheme: slate
   language: fr
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
     
 nav:
     - Accueil: index.md
