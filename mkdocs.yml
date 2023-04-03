@@ -28,11 +28,15 @@ theme:
     logo: logo
     repo: fontawesome/brands/github
 #  favicon: assets/favicon.png
+  features:
+    - navigation.footer
 
 #plugins:
 #  - minify:
 #      minify_html: true
-    
+extra:
+  generator: false
+
 nav:
     - Préface: index.md
     - Configuration:
