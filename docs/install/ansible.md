@@ -24,10 +24,19 @@ nodes
 EOF
 ```
 
-## Test
+
 
 Pour le test, on va simplement voir le retour du ping : 
 
 ```bash
 ansible cube -m ping
+```
+
+## Installation IPtables
+
+Et nous voilà partie, on va pouvoir finaliser notre systeme en installant le package `iptables` qui sera nécessaire pour l'utilisation du **K3s** :
+
+```
+ansible cube -m apt -a "name=iptables state=present" --become
+ansible nodes -b -m shell -a "reboot"
 ```
