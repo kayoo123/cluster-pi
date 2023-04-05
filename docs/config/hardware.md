@@ -6,7 +6,7 @@ Mais avec la pénurie des composants, c'est assez rare d'en trouver et les prix 
 
 Je me suis donc fait un choix de raison en selectionnant une version "en dessous", mais beaucoup plus accessible. La très populaire `Raspberry pi modele 3 B+`
 
-Cette petite carte est le parfait compromis, elle est à : 
+Cette petite carte est le parfait compromis : 
 
 - un SOC de 64-bit
 - Un archi ARMv8
