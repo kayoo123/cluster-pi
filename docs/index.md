@@ -15,9 +15,9 @@ Le but ici c'est d'apprendre tout en s'amusant et en partageant avec vous :rocke
 Ce qui sera au rendez-vous : 
 
 - [x] [MKdocs](https://www.mkdocs.org/) + [github workflow](https://docs.github.com/fr/actions/using-workflows)
-- [ ] [DietPi-Automation](https://dietpi.com/docs/usage/#how-to-do-an-automatic-base-installation-at-first-boot-dietpi-automation)
-- [ ] Ansible
-- [ ] Cluster Kubernetes avec [K3s](https://k3s.io/)
+- [x] [DietPi-Automation](https://dietpi.com/docs/usage/#how-to-do-an-automatic-base-installation-at-first-boot-dietpi-automation)
+- [x] Ansible
+- [x] Cluster Kubernetes avec [K3s](https://k3s.io/)
 - [ ] MetalLB
 - [ ] Traefik
 - [ ] Helm

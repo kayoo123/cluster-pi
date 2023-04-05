@@ -90,13 +90,20 @@ extra:
   generator: false
 
 nav:
-    - Préface: index.md
-    - Configuration:
-      - Hardware: config/hardware.md
-      - Software: config/software.md
-    - Cluster K3s:
-      - Installation: install/k3s.md
-    - Annexe:
-      - Script et alias: annexe/script.md
-      - mkdocs: annexe/mkdocs.md
-    - A Propos: about.md
+  - Préface: index.md
+  - Configuration:
+    - Hardware: config/hardware.md
+    - Software: config/software.md
+  - Installation du Cluster:
+    - SSH: install/ssh.md
+    - Ansible: install/ansible.md
+    - K3s: install/k3s.md
+    - Helm: install/helm.md
+    - Arkade: install/arkade.md
+    - MetalLb: install/metallb.md
+    - Longhorn: install/longhorn.md
+  - Et les services:
+    - PiHole: service/pihole.md
+  - Annexe:
+    - Script et alias: annexe/script.md
+    - Mkdocs: annexe/mkdocs.md
