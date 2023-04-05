@@ -8,7 +8,8 @@ apt install -y ansible
 
 ## Creation de l'inventaire
 mkdir /etc/ansible
-$ cat <<EOF>/etc/ansible/hosts
+
+cat <<EOF>/etc/ansible/hosts
 [control]
 control01  ansible_connection=local
 
