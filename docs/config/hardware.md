@@ -26,7 +26,7 @@ Concernant le stockage du systeme, je me rabbat sur la solution des **cartes mic
 Le gain ne semble pas justifier cet usage.
 
 !!! TODO
-  Se pencher sur une solution SSD ou via reseau (boot PXE), pourrait etre interessant... A creuser
+    Se pencher sur une solution SSD ou via reseau (boot PXE), pourrait etre interessant... A creuser
 
 Je reste donc a éplucher les bench pour identifier ce qui est nécessaire pour mon cluster, au minimum : 
 
