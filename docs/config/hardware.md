@@ -20,10 +20,13 @@ Elle n'a malheureusement que peu de RAM (1GB LPDDR2), mais n'est-ce pas justemen
 je commence ce projet avec 4x Raspberry, mais il aura l'avantage de grossir au fil du temps.
 
 
-## Carte SD
+## Carte microSD
 
-Concernant le stockage du systeme, je me rabbat sur la solution des **cartes SD**. En effet, le boot sur USB n'est présente que sur mise-a-jour du firmware et ne semble bien fonctionner que depuis les modeles 4.
+Concernant le stockage du systeme, je me rabbat sur la solution des **cartes microSD**. En effet, le boot sur USB n'est présente que sur mise-a-jour du firmware et ne semble bien fonctionner que depuis les modeles 4.
 Le gain ne semble pas justifier cet usage.
+
+!!! TODO
+  Se pencher sur une solution SSD ou via reseau (boot PXE), pourrait etre interessant... A creuser
 
 Je reste donc a éplucher les bench pour identifier ce qui est nécessaire pour mon cluster, au minimum : 
 
@@ -32,7 +35,7 @@ Je reste donc a éplucher les bench pour identifier ce qui est nécessaire pour 
 - `16GB` : pour heberger l'OS + quelques packages/images
 
 Il n'est pas rare de trouver des lots carte SD à des prix très interessant. 
-> Par exemple sur amazon, j'ai pu acheter 3x carte Kingston de `64GB C10 A1` pour une quinzaine d'euros. :tada:
+> Par exemple sur amazon, j'ai pu acheter 3x cartes uSD Kingston de `64GB C10 A1` pour une quinzaine d'euros. :tada:
 
 Bien sur si vous trouvez des classe haute-vitesse (U3 - A2) pouvant allez jusqu'à 30Mo/s, c'est le top. 
 Mais toujours dans l'esprit "cluster budget" je me rabbat sur les solutions les plus économes. 

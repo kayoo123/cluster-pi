@@ -1,5 +1,40 @@
+## OS - DietPi
+Apres avoir joué longtemps sur la distribution classique `Raspberry PI OS`, j'ai décidé de donner sa chance à une autre : **DietPi**.
 
-## Dietpi.txt
+Ce petit frere, n'a rien a lui envier, et il a de bon argument pour devenir mon OS favori sur ce genre de projet : 
+
+- [Version allégé](https://dietpi.com/stats.html#distrostats) (taille/process)
+- Gestion de logs en RAM native
+- Automatisation complete [POST-Install](https://dietpi.com/docs/usage/#how-to-do-an-automatic-base-installation-at-first-boot-dietpi-automation)
+
+Et bien plus encore : https://dietpi.com/#features
+
+
+## Creation du support
+
+On va préparer nos cartes SD et flasher [la derniere image de DietPi](https://dietpi.com/#downloadinfo) à l'aide d'un super outil : [`BalenaEtcher`](https://www.balena.io/etcher).
+
+Une fois fait, ne démarrer pas tout de suite vos petits serveurs, on va passer à une étape crucial, la configuration automatique de notre systeme.
+
+## DietPi Automation
+
+Merci DietPi, grace a toi, je m'evite de nombreuse manipulation manuelle pour la gestion de : 
+
+- Installation complete sans action de l'utilisation (on boot, on attend, et on profite)
+- Gestion des locales (FR)
+- Désactivation du Wifi
+- Désactivation de l'IPv6
+- Force une IP Fixe
+- Set un nom de machine (Hostname)
+- Gestion de la swap
+- Gestion du boot
+- Installation de packages 
+- et bien d'autre choses (OverClock,proxy,repo,etc...)
+
+Tout ce fait a partir d'un unique fichier (KISS), il est très bien documenté mais voici en exemple ce que j'ai parametré : 
+
+### Dietpi.txt
+
 ```bash
 AUTO_SETUP_ACCEPT_LICENSE=1
 AUTO_SETUP_LOCALE=C.UTF-8
@@ -8,7 +43,7 @@ AUTO_SETUP_TIMEZONE=Europe/France
 AUTO_SETUP_NET_ETHERNET_ENABLED=1
 AUTO_SETUP_NET_WIFI_ENABLED=0
 AUTO_SETUP_NET_ETH_FORCE_SPEED=0
-AUTO_SETUP_NET_WIFI_COUNTRY_CODE=SK
+AUTO_SETUP_NET_WIFI_COUNTRY_CODE=FR
 
 AUTO_SETUP_NET_USESTATIC=1
 AUTO_SETUP_NET_STATIC_IP=192.168.1.200
@@ -95,11 +130,22 @@ DEV_GITOWNER=MichaIng
 #------------------------------------------------------------------------------------------------------
 ```
 
-## cmdline.txt
+Vous pouvez ensuite simplement changer l'`IP` et le `HOSTNAME`, celon votre usages : 
+```
+AUTO_SETUP_NET_HOSTNAME=control01
+AUTO_SETUP_NET_STATIC_IP=192.168.1.200
+```
 
-Ajouter a la fin : `group_enable=cpuset cgroup_enable=memory cgroup_memory=1`
+
+### cmdline.txt
+
+On va profiter et rajouter 3 clés qui serviront pour installer notre cluster Kubernetes - K3s.
+
+Editer le fichier *cmdline.txt* et ajouter à la fin : `group_enable=cpuset cgroup_enable=memory cgroup_memory=1`
+
+Par exemple :
+
 ```bash
 root=PARTUUID=00858852-02 rootfstype=ext4 rootwait net.ifnames=0 logo.nologo console=serial0,115200 console=tty1 group_enable=cpuset cgroup_enable=memory cgroup_memory=1
-
 ```
 
