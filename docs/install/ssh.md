@@ -14,7 +14,7 @@ Connectez-vous sur le node : `control01` et éditer le fichier `/etc/hosts`
 192.168.1.203 node03 node03.local
 ```
 
-## SSH
+## Clé SSH
 
 Ensuite, nous allons faire en sorte que le node `control01` est accès aux autres nodes, via clé SSH.
 Comme ca, nous lui ferons confiance et nous n'aurons plus a renseigner un mot de passe (ce qui sera utile pour la suite avec ansible).
