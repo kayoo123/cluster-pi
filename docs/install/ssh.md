@@ -2,8 +2,7 @@
 
 Afin de discuter simplement avec le nom d'equipement (et non par adressage IP), nous allons renseigner notre fichier d'**hosts** sur notre noeud **control01**.
 
-!!! Note
-    Bien sur, si vous utilisez un serveur DNS comme moi, il est plus simple de l'utiliser afin de forcer la rësolution DNS sur l'ensemble des péripheriques de votre reseau.
+!!! Bien sur, si vous utilisez un serveur DNS comme moi, il est plus simple de l'utiliser afin de forcer la rësolution DNS sur l'ensemble des péripheriques de votre reseau.
 
 Connectez-vous sur le node : `control01` et éditer le fichier `/etc/hosts`
 ```bash
