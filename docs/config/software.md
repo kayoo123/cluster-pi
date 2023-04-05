@@ -22,6 +22,7 @@ Merci DietPi, grace a toi, je m'evite de nombreuse manipulation manuelle pour la
 
 - Installation complete sans action de l'utilisation (on boot, on attend, et on profite)
 - Gestion des locales (FR)
+- Gestion USER/MDP
 - Désactivation du Wifi
 - Désactivation de l'IPv6
 - Force une IP Fixe
